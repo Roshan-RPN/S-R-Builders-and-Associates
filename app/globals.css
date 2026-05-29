@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --font-display: var(--font-display);
+  --font-mono: var(--font-mono);
+  --font-sans: var(--font-sans);
+  
+  --color-primary: #C4302B;
+  --color-secondary: #333333;
+  --color-accent: #D32F2F;
+  --color-charcoal: #212121;
+}
+
+@layer base {
+  :root {
+    --font-sans: 'Inter', sans-serif;
+    --font-display: 'Outfit', sans-serif;
+    --font-mono: 'Space Grotesk', monospace;
+  }
+}
